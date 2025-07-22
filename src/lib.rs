@@ -10,7 +10,10 @@
 #![warn(missing_docs)]
 
 // Module declarations.
-pub(crate) mod module;
+pub(crate) mod functions;
+pub(crate) mod macros;
+pub(crate) mod traits;
 
 // Re-exports.
-pub use crate::module::example_function;
+pub use crate::functions::run_command;
+pub use crate::traits::AsCommand;
