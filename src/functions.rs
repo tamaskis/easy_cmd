@@ -22,10 +22,10 @@ use std::process::Command;
 /// # Example
 ///
 /// ```
-/// use simple_command::run_command;
+/// use easy_cmd::run_command;
 /// use std::path::Path;
 ///
-/// // Run `git status` inside the current working directory (the `simple_command` repo).
+/// // Run `git status` inside the current working directory (the `easy_cmd` repo).
 /// //  --> Note: we have to disambiguate the `None` type to `None::<&str>` since the compiler
 /// //      cannot infer the type of the path.
 /// run_command("git status", None::<&str>).unwrap();
