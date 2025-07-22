@@ -1,14 +1,14 @@
-# simple-command
+# easy-cmd
 
-[<img alt="github" src="https://img.shields.io/badge/github-tamaskis/simple_command-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/tamaskis/simple_command)
-[<img alt="crates.io" src="https://img.shields.io/crates/v/simple-command.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/simple-command)
-[<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-simple_command-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/simple-command)
+[<img alt="github" src="https://img.shields.io/badge/github-tamaskis/easy_cmd-8da0cb?style=for-the-badge&labelColor=555555&logo=github" height="20">](https://github.com/tamaskis/easy_cmd)
+[<img alt="crates.io" src="https://img.shields.io/crates/v/easy-cmd.svg?style=for-the-badge&color=fc8d62&logo=rust" height="20">](https://crates.io/crates/easy-cmd)
+[<img alt="docs.rs" src="https://img.shields.io/badge/docs.rs-easy_cmd-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs" height="20">](https://docs.rs/easy-cmd)
 
 Simple interfaces for running CLI commands from Rust.
 
 ## Documentation
 
-Please see https://docs.rs/simple-command/.
+Please see https://docs.rs/easy-cmd/.
 
 #### License
 

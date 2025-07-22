@@ -11,7 +11,7 @@
 /// # Example
 ///
 /// ```
-/// use simple_command::run_command;
+/// use easy_cmd::run_command;
 ///
 /// // Run a command in the current working directory.
 /// run_command!("git status");
@@ -24,7 +24,7 @@ macro_rules! run_command {
     ($cmd:expr) => {{
         // Note that we need to supply &str as a type parameter because even though it isn't used,
         // the compiler still needs to know the type, and it cannot infer it from the macro call.
-        if let Err(e) = simple_command::run_command::<_, &str>($cmd, None) {
+        if let Err(e) = easy_cmd::run_command::<_, &str>($cmd, None) {
             eprintln!("{}", e);
             std::process::exit(1);
         }
@@ -44,7 +44,7 @@ macro_rules! run_command {
 /// # Example
 ///
 /// ```
-/// use simple_command::run_command_in_dir;
+/// use easy_cmd::run_command_in_dir;
 /// use std::path::Path;
 ///
 /// // Run a command in a specific directory.
@@ -57,7 +57,7 @@ macro_rules! run_command {
 #[macro_export]
 macro_rules! run_command_in_dir {
     ($cmd:expr, $dir:expr) => {{
-        if let Err(e) = simple_command::run_command($cmd, Some($dir)) {
+        if let Err(e) = easy_cmd::run_command($cmd, Some($dir)) {
             eprintln!("{}", e);
             std::process::exit(1);
         }

@@ -1,4 +1,4 @@
-//! [![github]](https://github.com/tamaskis/simple_command)&ensp;[![crates-io]](https://crates.io/crates/simple-command)&ensp;[![docs-rs]](https://docs.rs/simple-command)
+//! [![github]](https://github.com/tamaskis/easy_cmd)&ensp;[![crates-io]](https://crates.io/crates/easy-cmd)&ensp;[![docs-rs]](https://docs.rs/easy-cmd)
 //!
 //! [github]: https://img.shields.io/badge/github-8da0cb?style=for-the-badge&labelColor=555555&logo=github
 //! [crates-io]: https://img.shields.io/badge/crates.io-fc8d62?style=for-the-badge&labelColor=555555&logo=rust

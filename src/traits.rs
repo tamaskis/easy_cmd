@@ -11,7 +11,7 @@ pub trait AsCommand {
     /// # Example
     ///
     /// ```
-    /// use simple_command::AsCommand;
+    /// use easy_cmd::AsCommand;
     /// use std::process::Command;
     ///
     /// // Define the same command using four different types.

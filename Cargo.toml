@@ -1,11 +1,11 @@
 [package]
-name = "simple-command"
+name = "easy-cmd"
 version = "0.1.0"
 authors = ["Tamas Kis"]
 edition = "2024"
 description = "Simple interfaces for running CLI commands from Rust."
-documentation = "https://docs.rs/simple-command"
-repository = "https://github.com/tamaskis/simple_command"
+documentation = "https://docs.rs/easy-cmd"
+repository = "https://github.com/tamaskis/easy_cmd"
 license = "MIT OR Apache-2.0"
 
 exclude = [".gitignore", ".github/", ".vscode/", "Cargo.lock", "book/"]
@@ -15,5 +15,3 @@ rustdoc-args = [ "--html-in-header", "src/docs-header.html" ]
 
 [dependencies]
 shell-words = "1.1.0"
-
-[dev-dependencies]
