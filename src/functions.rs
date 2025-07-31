@@ -9,8 +9,8 @@ use std::process::Command;
 /// * `cmd` - The command to run. The command can be represented as a single string or a collection
 ///   of strings, or as any other type that implements the [`crate::AsCommand`] trait.
 /// * `dir` - Path to the directory that the command specified by `cmd` should be run in (can be a
-///   `&str`, `String`, `Path`, or `PathBuf`). If `None`, the command is run in the current working
-///   directory.
+///   `&str`, [`String`], [`Path`], or [`std::path::PathBuf`].). If [`None`], the command is run in
+///   the current working directory.
 ///
 /// # Returns
 ///

@@ -5,8 +5,6 @@
 /// * `$cmd` - The command to run in the current working directory. The command can be represented
 ///   as a single string or a collection of strings, or as any other type that implements the
 ///   [`crate::AsCommand`] trait.
-/// * `$dir` - Path to the directory that the command specified by `$cmd` should be run in (can be a
-///   `&str`, `String`, `Path`, or `PathBuf`).
 ///
 /// # Example
 ///
@@ -39,7 +37,7 @@ macro_rules! run_command {
 ///   represented as a single string or a collection of strings, or as any other type that
 ///   implements the [`crate::AsCommand`] trait.
 /// * `$dir` - Path to the directory that the command specified by `$cmd` should be run in (can be a
-///   `&str`, `String`, `Path`, or `PathBuf`).
+///   `&str`, [`String`], [`std::path::Path`], or [`std::path::PathBuf`].
 ///
 /// # Example
 ///
